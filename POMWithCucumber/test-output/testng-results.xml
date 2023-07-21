@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8758" started-at="2023-07-15T20:29:02 IST" finished-at="2023-07-15T20:29:10 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcase.VerifyLogin@7ea9e1e2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="EnTest" duration-ms="8758" started-at="2023-07-15T20:29:02 IST" finished-at="2023-07-15T20:29:10 IST">
+      <class name="testcase.VerifyLogin">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:testcase.VerifyLogin@7ea9e1e2]" name="startApp" is-config="true" duration-ms="508" started-at="2023-07-15T20:29:01 IST" finished-at="2023-07-15T20:29:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testcase.VerifyLogin@7ea9e1e2]" name="setValues" is-config="true" duration-ms="0" started-at="2023-07-15T20:29:02 IST" finished-at="2023-07-15T20:29:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testcase.VerifyLogin@7ea9e1e2]" name="setUpClass" is-config="true" duration-ms="276" started-at="2023-07-15T20:29:02 IST" finished-at="2023-07-15T20:29:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74834afd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="testDetails()[pri:0, instance:testcase.VerifyLogin@7ea9e1e2]" name="testDetails" is-config="true" duration-ms="6" started-at="2023-07-15T20:29:02 IST" finished-at="2023-07-15T20:29:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:testcase.VerifyLogin@7ea9e1e2]" name="preCondition" is-config="true" duration-ms="7122" started-at="2023-07-15T20:29:02 IST" finished-at="2023-07-15T20:29:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="verifyLoginFunctality()[pri:0, instance:testcase.VerifyLogin@7ea9e1e2]" name="verifyLoginFunctality" duration-ms="1061" started-at="2023-07-15T20:29:09 IST" finished-at="2023-07-15T20:29:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctality -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.VerifyLogin@7ea9e1e2]" name="postCondition" is-config="true" duration-ms="199" started-at="2023-07-15T20:29:10 IST" finished-at="2023-07-15T20:29:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testcase.VerifyLogin@7ea9e1e2]" name="tearDownClass" is-config="true" duration-ms="28" started-at="2023-07-15T20:29:10 IST" finished-at="2023-07-15T20:29:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testcase.VerifyLogin@7ea9e1e2]" name="endReport" is-config="true" duration-ms="613" started-at="2023-07-15T20:29:10 IST" finished-at="2023-07-15T20:29:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcase.VerifyLogin -->
+    </test> <!-- EnTest -->
+  </suite> <!-- Suite -->
+</testng-results>
